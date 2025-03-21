@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This is Before Suite Method]]>
+    </line>
+    <line>
+      <![CDATA[This is BeforeTest Method , true]]>
+    </line>
+    <line>
+      <![CDATA[This is Before Class Method]]>
+    </line>
+    <line>
+      <![CDATA[This is Before Method]]>
+    </line>
+    <line>
+      <![CDATA[This is TestCAse 1]]>
+    </line>
+    <line>
+      <![CDATA[This is After Method]]>
+    </line>
+    <line>
+      <![CDATA[This is Before Method]]>
+    </line>
+    <line>
+      <![CDATA[This is TestCAse 2]]>
+    </line>
+    <line>
+      <![CDATA[This is After Method]]>
+    </line>
+    <line>
+      <![CDATA[This is After Class Method]]>
+    </line>
+    <line>
+      <![CDATA[This is After Test Method]]>
+    </line>
+    <line>
+      <![CDATA[This is After Suite  Method]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-07T11:36:32 IST" name="Default suite" finished-at="2025-03-07T11:36:32 IST" duration-ms="65">
+    <groups>
+    </groups>
+    <test started-at="2025-03-07T11:36:32 IST" name="Default test" finished-at="2025-03-07T11:36:32 IST" duration-ms="65">
+      <class name="testNGAnnotations.ToUnderstandAnnotations">
+        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="beforeSuiteMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Before Suite Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="beforeTestMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is BeforeTest Method , true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="beforeClassMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Before Class Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="beforeMethodTest" finished-at="2025-03-07T11:36:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="test1()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="test1" finished-at="2025-03-07T11:36:32 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is TestCAse 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="afterMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="beforeMethodTest" finished-at="2025-03-07T11:36:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="test2()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="test2" finished-at="2025-03-07T11:36:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is TestCAse 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="afterMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="afterClassMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is After Class Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="afterTestMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is After Test Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="afterSuiteMethod()[pri:0, instance:testNGAnnotations.ToUnderstandAnnotations@5c33f1a9]" started-at="2025-03-07T11:36:32 IST" name="afterSuiteMethod" finished-at="2025-03-07T11:36:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is After Suite  Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- testNGAnnotations.ToUnderstandAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

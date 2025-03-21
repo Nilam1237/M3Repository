@@ -1,0 +1,36 @@
+package readExcelData;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class ToWriteDataIntoExcel {
+
+	public static void main(String[] args) throws EncryptedDocumentException, IOException {
+		
+		        //To Specify the path of excel file
+				FileInputStream fis = new FileInputStream("./testData/testData.xlsx");
+				
+				 //To make the file ready to read
+			     Workbook wb = WorkbookFactory.create(fis);
+			     
+			     //to get into the desired sheet
+			     Sheet sheet = wb.getSheet("IPL");
+			     
+			     Row row = sheet.getRow(1);
+			     
+			     Cell cell = row.createCell(2);
+			     
+			     cell.setCellValue("Pune");
+			     
+			     FileOutputStream fos = new FileOutputStream("./testData/testData.xlsx");
+			     wb.write(fos);
+	}
+}
